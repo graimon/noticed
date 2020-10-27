@@ -68,8 +68,8 @@ module Noticed
         response = request.post(url, args)
 
         if options[:debug]
-          Rails.logger.debug("POST #{url}")
-          Rails.logger.debug("Response: #{response.code}: #{response}")
+          Jets.logger.debug("POST #{url}")
+          Jets.logger.debug("Response: #{response.code}: #{response}")
         end
 
         if !options[:ignore_failure] && !response.status.success?

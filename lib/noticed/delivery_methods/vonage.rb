@@ -30,7 +30,7 @@ module Noticed
         if (method = options[:credentials])
           notification.send(method)
         else
-          Rails.application.credentials.vonage
+          Jets.application.credentials.vonage
         end
       end
     end

@@ -1,7 +1,5 @@
 require "active_job/arguments"
 require "http"
-require "rails/engine"
-require "noticed/engine"
 require "jets"
 
 module Noticed
@@ -14,7 +12,7 @@ module Noticed
 
   module DeliveryMethods
     autoload :Base, "noticed/delivery_methods/base"
-    autoload :ActionCable, "noticed/delivery_methods/action_cable"
+    #autoload :ActionCable, "noticed/delivery_methods/action_cable"
     autoload :Database, "noticed/delivery_methods/database"
     autoload :Email, "noticed/delivery_methods/email"
     autoload :Slack, "noticed/delivery_methods/slack"

@@ -43,7 +43,7 @@ module Noticed
         if (method = options[:credentials])
           notification.send(method)
         else
-          Rails.application.credentials.twilio
+          Jets.application.credentials.twilio
         end
       end
     end

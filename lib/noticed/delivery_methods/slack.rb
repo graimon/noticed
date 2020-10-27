@@ -19,7 +19,7 @@ module Noticed
         if (method = options[:url])
           notification.send(method)
         else
-          Rails.application.credentials.slack[:notification_url]
+          Jets.application.credentials.slack[:notification_url]
         end
       end
     end

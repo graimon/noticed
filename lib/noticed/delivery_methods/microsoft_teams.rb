@@ -24,7 +24,7 @@ module Noticed
         if (method = options[:url])
           notification.send(method)
         else
-          Rails.application.credentials.microsoft_teams[:notification_url]
+          Jets.application.credentials.microsoft_teams[:notification_url]
         end
       end
     end
