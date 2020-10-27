@@ -1,5 +1,6 @@
 require "active_job/arguments"
 require "http"
+require "rails/engine"
 require "noticed/engine"
 require "jets"
 
