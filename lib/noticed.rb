@@ -1,6 +1,7 @@
 require "active_job/arguments"
 require "http"
 require "noticed/engine"
+require "jets"
 
 module Noticed
   autoload :Base, "noticed/base"
