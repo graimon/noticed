@@ -16,14 +16,14 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "actionmailer", "~> 6.1.0"
-  spec.add_dependency "actionpack", "~> 6.1.0"
-  spec.add_dependency "actionview", "~> 6.1.0"
-  spec.add_dependency "activerecord", "~> 6.1.0"
-  spec.add_dependency "activesupport", "~> 6.1.0"
-  spec.add_dependency "jets", ">= 3.0.0"
+  spec.add_dependency "actionmailer", "~> 6.0.0"
+  spec.add_dependency "actionpack", "~> 6.0.0"
+  spec.add_dependency "actionview", "~> 6.0.0"
+  spec.add_dependency "activerecord", "~> 6.0.0"
+  spec.add_dependency "activesupport", "~> 6.0.0"
+  spec.add_dependency "jets", "~> 2.3.18"
   spec.add_dependency "http", ">= 4.0.0"
-  spec.add_dependency "railties", "~> 6.1.0"
+  spec.add_dependency "railties", "~> 6.0.0"
 
   spec.add_development_dependency "pg"
   spec.add_development_dependency "standard"
