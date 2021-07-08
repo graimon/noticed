@@ -20,12 +20,7 @@ module Noticed
       end
 
       def noticed_coder
-        case attribute_types["params"].type
-        when :json, :jsonb
-          Noticed::Coder
-        else
-          Noticed::TextCoder
-        end
+        Noticed::Coder
       end
     end
 
